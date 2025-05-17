@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const ownervb = process.env.OWNERS || "254743706010"
+const ownervb = process.env.OWNERS || "27834711405"
 
 
 const ownerlist = ownervb.split(';');
@@ -23,9 +23,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number her
 
-global.mods = ['254743706010', '254700143167']
-global.prems = ['254743706010', '254700143167', '254755267907']
-global.allowed = ['254743706010', '254700143167']
+global.mods = ['254743706010', '27834711405']
+global.prems = ['254743706010', '27834711405', '254755267907']
+global.allowed = ['254743706010', '27834711405']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -71,8 +71,8 @@ global.APIKeys = {
 // Sticker WM
 global.botname = process.env.BOTNAME
 global.premium = 'true'
-global.packname = 'silva'
-global.author = 'silva'
+global.packname = 'kay95'
+global.author = 'kay95'
 global.menuvid = ''
 global.igfg = ''
 global.dygp = ''
@@ -82,7 +82,7 @@ global.fgpyp = 'https://youtube.com/@silvaedits254'
 global.fglog = ''
 global.thumb = fs.readFileSync('./jusorts/sylivanus.jpg')
 
-global.wait = '*⌛ _SILVA MD ANALYSING..._*\n*▰▰▰▱▱▱▱▱*'
+global.wait = '*⌛ _KAY⁹⁵ MD ANALYSING..._*\n*▰▰▰▱▱▱▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
